@@ -3709,7 +3709,6 @@ EOT;
                             $n = $dtmp['N'];
                             $glyph = $dtmp['G'];
                             $width = floatval($dtmp['WX']);
-
                             if ($c >= 0) {
                                 // Set values in CID to GID map
                                 if ($c >= 0 && $c < 0xFFFF && $glyph) {
